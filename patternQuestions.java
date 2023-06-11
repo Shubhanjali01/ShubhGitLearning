@@ -10,6 +10,8 @@ public class patternQuestions {
     pattern5(5);
     pattern6(5);
     pattern7(5);
+    pattern8(5);
+
 
   }
 
@@ -111,5 +113,27 @@ public class patternQuestions {
     System.out.println();
   }
 
+
+
+
+static void pattern8(int m2){
+
+  for (int r = 0; r <=m2; r++) {
+      for (int spac = 0; spac < m2-r; spac++) {
+    System.out.print(" ");
+  }
+
+  for (int c = 0; c <=r; c++) {
+    System.out.print("*");
+  }
+ 
+System.out.println();
+
+  }
+ 
+  
 }
 
+
+
+}
